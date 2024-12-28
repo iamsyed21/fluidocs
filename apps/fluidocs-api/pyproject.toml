@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fluidocs-api"
+version = "0.1.0"
+description = "Concurrent document editor API"
+authors = ["iamsyed21 <syedmoinahmed01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+pymongo = "^4.6.1"
+redis = "^5.0.1"
+python-dotenv = "^1.0.0"
+websockets = "^12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
