@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div>
-      <Button>Muddu</Button>
+      <Button>Muddu muddu</Button>
     </div>
   );
 }
